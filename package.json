@@ -10,7 +10,7 @@
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
     "prepare": "husky install",
-    "lint-staged":"lint-staged"
+    "lint-staged": "lint-staged"
   },
   "dependencies": {
     "pinia": "^3.0.1",
@@ -29,6 +29,7 @@
     "husky": "^8.0.0",
     "lint-staged": "^15.5.0",
     "prettier": "3.5.3",
+    "sass": "^1.86.3",
     "vite": "^6.2.4",
     "vite-plugin-vue-devtools": "^7.7.2"
   },
